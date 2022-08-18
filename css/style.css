@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: rgb(1, 8, 0);
-    color: rgba(198, 226, 43, 0.555);
+    background-color: #fff;
+    color: rgba(205, 43, 226, 0.719);
 }
 
 .titlle {
@@ -32,7 +32,7 @@ h2 {
     justify-content: center;
     margin-bottom: 50px;
     font-size: 20px;
-    color: rgba(226, 43, 52, 0.788);
+    color: rgba(0, 0, 0, 0.788);
     font-family: 'Rubik Marker Hatch', cursive;
 }
 p {
@@ -53,7 +53,7 @@ button {
     color: rgb(226, 43, 52);
     padding: 8px;
     border-radius: 12px;
-    border-color: rgba(43, 226, 89, 0.781);
+    border-color: rgba(174, 43, 226, 0.781);
     font-family: 'Silkscreen', cursive;
     font-size: 20px;
     cursor: pointer;
@@ -72,10 +72,9 @@ display: block;
 white-space: nowrap;
 border-right: 4px solid;
 width: 19ch;
-background-color: rgba(24, 39, 7, 0.822);
-  backdrop-filter: blur(3px);
+background-color: rgb(2, 2, 2);
   border-top-left-radius: 10px;
-
+    border-bottom-left-radius: 10px;
 animation: typing 2s steps(19), blink .5s infinite step-end alternate;
 overflow:hidden;
 }
