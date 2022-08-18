@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 8, 0);
+    color: rgba(198, 226, 43, 0.555);
+}
+
+
+
+.titlle {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.boxi {
+    display: inline-flex;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: rgba(226, 43, 52, 0.788);
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+p {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+}
+div {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    margin-left: -80px;
+}
+button {
+    background-color: #000;
+    color: rgb(226, 43, 52);
+    padding: 8px;
+    border-radius: 12px;
+    border-color: rgba(43, 226, 89, 0.781);
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: rgb(168, 35, 162);
+  transition: all 800ms ease;
+}
+
+/* animaciones */
+
+h1 {
+display: block;
+white-space: nowrap;
+border-right: 4px solid;
+width: 19ch;
+background-color: rgba(24, 39, 7, 0.822);
+  backdrop-filter: blur(3px);
+  border-top-left-radius: 10px;
+
+animation: typing 2s steps(19), blink .5s infinite step-end alternate;
+overflow:hidden;
+}
+
+@keyFrames typing {
+
+from { width: 0}
+}
+
+@keyFrames blink {
+ 50% { border-color: transparent}
+}
