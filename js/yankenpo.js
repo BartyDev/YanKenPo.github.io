@@ -15,7 +15,7 @@ function eleccion(jugada) {
         resultado = "Piedra 🪨"
     } else if (jugada == 2) {
         resultado = "Papel 📃"
-    } else if (jugada === 3) {
+    } else if (jugada == 3) {
         resultado = "Tijera ✂️"
     } else {
         resultado = "ERROR!"
